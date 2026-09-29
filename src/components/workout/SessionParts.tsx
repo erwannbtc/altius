@@ -163,7 +163,7 @@ export function ExerciseCard({
               >
                 <Plus size={16} />
               </button>
-              <span className="caption">Repos {Math.round(se.restSec / 60 * 10) / 10} min</span>
+              <span className="caption">Repos {fmtMax(se.restSec / 60)} min</span>
             </div>
             <div className="row" style={{ gap: 6 }}>
               <button className="round-btn" style={{ width: 36, height: 36 }} aria-label="Remplacer l'exercice" onClick={onSwap}>
