@@ -1,0 +1,13 @@
+node_modules
+dist
+dev-dist
+scripts/raw
+*.log
+.DS_Store
+.vscode
+.claude
+.env
+.env.*
+# Les modèles 3D personnels restent hors de Git s'ils sont lourds ou sous licence
+# (retire cette ligne si tu veux les publier avec l'app).
+# public/models/*.glb
